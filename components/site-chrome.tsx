@@ -224,7 +224,7 @@ export function SiteFooter({ edition = "us" }: { edition?: string }) {
             <form className="flex min-w-0" action="/search">
               <input
                 className="min-w-0 flex-1 border border-outline-variant bg-surface-container-low px-space-sm py-space-xs font-body-sm text-body-sm text-on-surface outline-none focus:border-primary"
-                placeholder="analyst@institution.com"
+                placeholder="ekunolajohn@gmail.com"
                 type="email"
                 name="email"
                 disabled
