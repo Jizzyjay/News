@@ -1,6 +1,6 @@
 # Dispatch News
 
-Editorial broadsheet for live global headlines. The original Stitch HTML screens are rebuilt as a **Next.js**, **TypeScript**, and **Tailwind CSS v4** app, with article and source data from [NewsAPI](https://newsapi.org).
+Editorial broadsheet for live global headlines, built as a **Next.js**, **TypeScript**, and **Tailwind CSS v4** app, with article and source data from [NewsAPI](https://newsapi.org).
 
 Cards and the reader render the NewsAPI payload as-is: `source`, `author`, `title`, `description`, `url`, `urlToImage`, `publishedAt`, and truncated `content`.
 
@@ -67,11 +67,7 @@ npm run lint     # ESLint
 app/            # App Router pages and global styles
 components/     # Broadsheet chrome, cards, reader, source tools
 lib/            # NewsAPI client, types, constants, helpers
-editorial_dispatch/DESIGN.md   # Original visual system
-dispatch_front_page/           # Stitch HTML reference screens
-article_detail_reader_view/
-tech_innovation_feed/
-source_directory_custom_feeds/
+public/         # Static assets
 ```
 
 ## Design
@@ -81,4 +77,3 @@ The UI follows the Stitch **Editorial Dispatch** system: Bodoni Moda headlines, 
 ## License
 
 News content remains copyright of the originating publishers. This project is an aggregator UI over the NewsAPI developer plan.
-# News
